@@ -1,0 +1,21 @@
+@media only screen and (min-width: 10em) {
+  .home-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .home-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section:nth-child(3) {
+    grid-column: span 2;
+  }
+}
+@media only screen and (min-width: 55.5em) {
+  .home-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  section:nth-child(3) {
+    grid-column: span 1;
+  }
+}
