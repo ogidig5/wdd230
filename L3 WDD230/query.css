@@ -1,0 +1,24 @@
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 35em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+}
+@media (min-width: 50em) {
+	nav a {
+		font-size: 1.3rem;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+	}
+}
