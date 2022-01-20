@@ -1,10 +1,6 @@
 
-/***********************************************/
-/** Media Queries for larger views *************/
-/***********************************************/
-
 @media (min-width: 35em) {
-	nav {
+	nav a{
 		flex-direction: row;
 	}
 	
