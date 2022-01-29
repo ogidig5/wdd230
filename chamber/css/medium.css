@@ -1,0 +1,128 @@
+@media only screen and (min-width: 35rem) {
+  header {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #social {
+    justify-items: right;
+    display: flex;
+    padding-top: 20px;
+  }
+  #twitter {
+    padding-left: 5px;
+  }
+  #facebook {
+    padding-left: 5px;
+  }
+  .social svg {
+    width: 25px;
+    height: auto;
+  }
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .box3 {
+    display: none;
+  }
+  .box4 {
+    display: none;
+  }
+  .box5 {
+    border: groove;
+    width: 95%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 0.9em;
+  }
+  .box5 {
+    border: groove;
+    width: 95%;
+    height: 40%;
+  }
+  .box {
+    display: block;
+  }
+  .box34 {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    border: groove;
+    width: 50%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 2em;
+  }
+  .box34 {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    border: groove;
+    width: 50%;
+    height: 70%;
+    margin-right: 30px;
+  }
+  .boxx {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    border: groove;
+    display: flex;
+  }
+  #five {
+    border: groove;
+    width: 96%;
+  }
+  .box67 {
+    display: flex;
+    height: 13em;
+    margin-left: 0em;
+  }
+  #box66 {
+    height: 90%;
+  }
+  #box7 {
+    width: 20em;
+    height: 90%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  #box6 {
+    display: none;
+  }
+
+  #box5 {
+    display: none;
+  }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: turquoise;
+  }
+  .footerFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer1 {
+    margin-top: 40px;
+    padding-right: 5em;
+  }
+  .footer2 {
+    margin-top: 40px;
+    padding-left: 40px;
+  }
+  .footer3 {
+    display: none;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+  }
+}
