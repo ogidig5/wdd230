@@ -1,85 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nairobi Chamber of Commerce</title>
-    <meta
-      name="description"
-      content="This is my WDD 230 assignment portal Dashboard"
-    />
-    <!--<link rel="stylesheet" href="css/normalize.css" />-->
-    <link type="text/css" rel="stylesheet" href="css/base.css" />
-    <link type="text/css" rel="stylesheet" href="css/medium.css" />
-    <link type="text/css" rel="stylesheet" href="css/large.css" />
-  </head>
-  <body>
-    <header>
-      <picture>
-        <img
-          src="images/rsz_logo_small.png"
-          alt="Nairobi Chamber of Commerce logo"
-        />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nairobi Chamber of Commerce</title>
+  <meta name="description" content="This is my WDD 230 assignment portal Dashboard" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link type="text/css" rel="stylesheet" href="css/base.css" />
+  <link type="text/css" rel="stylesheet" href="css/medium.css" />
+  <link type="text/css" rel="stylesheet" href="css/large.css" />
+</head>
+
+<body>
+  <header>
+    <section class="headerItems">
+      <picture class="headerImage">
+        <source media="(max-width: 500px)" srcset="images/logosmall.webp">
+        <source media="(max-width: 991px)" srcset="images/logomedium.webp">
+        <source media="(max-width: 2000px)" srcset="images/logolarge.webp">
+        <img src="images/logolarge" alt="header logo">
       </picture>
       <section class="headings">
         <h1>Nairobi Chamber of Commerce</h1>
-        <div class="m">The way to do business!</div>
+        <div class="m">The way to do business!</div></br></br></br>
+        <p id="lastupdated">Last Updated</p>
       </section>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100004971191346">
+          <img class="icon-1" src="images/twittericonnobg.png" alt="Twitter icon" />
+        </a>
+      </div>
+      <div class="social">
 
-      <div class="social" id="social">
-        <a id="facebook" href="https://facebook.com"
-          ><svg
-            enable-background="new 0 0 32 32"
-            height="32px"
-            id="Layer_1"
-            viewBox="0 0 32 32"
-            width="32px"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <g>
-              <path
-                d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
-                fill="#3B5998"
-              />
-              <path
-                d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22z"
-                fill="#FFFFFF"
-                id="f"
-              />
-            </g></svg
-        ></a>
-        <a class="twitter" id="twitter" href="https://twitter.com"
-          ><svg
-            height="100%"
-            style="
-              fill-rule: evenodd;
-              clip-rule: evenodd;
-              stroke-linejoin: round;
-              stroke-miterlimit: 2;
-            "
-            version="1.1"
-            viewBox="0 0 512 512"
-            width="100%"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <g>
-              <path
-                d="M448,512l-384,0c-35.328,0 -64,-28.672 -64,-64l0,-384c0,-35.328 28.672,-64 64,-64l384,0c35.328,0 64,28.672 64,64l0,384c0,35.328 -28.672,64 -64,64Z"
-                id="Dark_Blue"
-                style="fill: #1da1f2; fill-rule: nonzero"
-              />
-              <path
-                d="M196.608,386.048c120.704,0 186.752,-100.096 186.752,-186.752c0,-2.816 0,-5.632 -0.128,-8.448c12.8,-9.216 23.936,-20.864 32.768,-34.048c-11.776,5.248 -24.448,8.704 -37.76,10.368c13.568,-8.064 23.936,-20.992 28.928,-36.352c-12.672,7.552 -26.752,12.928 -41.728,15.872c-12.032,-12.8 -29.056,-20.736 -47.872,-20.736c-36.224,0 -65.664,29.44 -65.664,65.664c0,5.12 0.64,10.112 1.664,14.976c-54.528,-2.688 -102.912,-28.928 -135.296,-68.608c-5.632,9.728 -8.832,20.992 -8.832,33.024c0,22.784 11.648,42.88 29.184,54.656c-10.752,-0.384 -20.864,-3.328 -29.696,-8.192l0,0.896c0,31.744 22.656,58.368 52.608,64.384c-5.504,1.536 -11.264,2.304 -17.28,2.304c-4.224,0 -8.32,-0.384 -12.288,-1.152c8.32,26.112 32.64,45.056 61.312,45.568c-22.528,17.664 -50.816,28.16 -81.536,28.16c-5.248,0 -10.496,-0.256 -15.616,-0.896c28.928,18.432 63.488,29.312 100.48,29.312"
-                id="Logo__x2014__FIXED"
-                style="fill: #fff; fill-rule: nonzero"
-              />
-            </g></svg
-        ></a>
+        <a href="https://www.facebook.com/profile.php?id=100004971191346">
+          <img class="icon-2" src="images/Facebook-logonobg.png" alt="Facebook icon" />
+        </a>
       </div>
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -90,127 +47,145 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </header>
-    <div id="lastupdated"></div>
-    <main>
-      <div class="wrapper">
-        <div class="hero">
-          <img class="heroimg"
-          src="images/mustafa-omar-Zkao_QBEjk8-unsplash.jpg" alt="hero image"
-          width="450" height="155"/>
-          <button class="herobutton" type="submit"><h2>Join the Chamber</h2></button>
-          <div class="heromessage"><h2>Welcome to Nairobi</h2></div>
-        </div>
-        <div class="event">
-          <p class="pevent">
-            Ribbon Cutting<br/>
-            The Diamond Shack<br /><br />
-            Join us for the grand re-opening<br />
-            of the diamond shack, Thursday at 1pm<br />
-            more info...
-          </p>
-        </div>
-        <div class="weather">
-          <img class="weatherimg"
-          src="images/neda-astani-KWTkd7mHqKE-unsplash.jpg" alt="cloudy weather image"
-          width="455" height="180"/>
-          <div class="weatherdetails">
-            <h2>Weather</h2>
-            <p class="pweather">
-              <pre>Temparature:     33°C</pre>
-              <pre>        Partly Cloudy</pre>
-              <pre>Wind Speed:    20km/h</pre>
-              <pre>Wind Chill:    N/A</pre>
-            </p>
-          </div>
-        </div>
-        <div class="newsrelease">
-          <p class="pnews">
-            <h2>News Release</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            
-          </p>
-        </div>
-        <div class="join">
-          <button class="joinbutton" type="submit"><h2>Join the Chamber</h2></button>
-          <p class="pjoin">Discover how to join the chamber of commerce and how it will benefit your<br /> organisation</p>
-        </div>
-        <div class="wrapperspotlight">
-          <div class="spotlight1">
-            <h2 id="thankful">Thankful Transport</h2>
-            <picture>
-              <img class="sp1img"
-                  src="images/rsz_logo_small.png" alt="spotlight 1 image"
-                  width="70" height="70"/>
-            </picture>
-            <p><em>"We get it there for you"</em></p>
-            <section class="spot1">
-              <p>hello@thankfultransport.com<br />999-999-999 | Website</p>
-            </section>
-          </div>
-          <div class="spotlight2">
-            <h2 id="thankful">Bethville Farm</h2>
-            <picture>
-              <img class="sp2img"
-                  src="images/rsz_logo_small.png" alt="spotlight 1 image"
-                  width="70" height="70"/>
-            </picture>
-            <p><em>"We deliver at your door step"</em></p>
-            <section class="spot2">
-              <p>bethville@farm.com<br />999-999-999 | Website</p>
-            </section>
-          </div>
-          <div class="spotlight3">
-            <h2 id="thankful">Code Primera</h2>
-            <picture>
-              <img class="sp3img"
-                  src="images/rsz_logo_small.png" alt="spotlight 1 image"
-                  width="70" height="70"/>
-            </picture>
-            <p><em>"A school coding instructional program"</em></p>
-            <section class="spot3">
-              <p>contact@codeprimera.com<br />999-999-999 | Website</p>
-            </section>
-          </div>
-        </div>
       </div>
-    </main>
-    <footer>
-      <div class="footerFlex">
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <div class="hero">
         <picture>
-          <img
-            class="footerImage"
-            src="images/rsz_logo_small.png"
-            alt="Nairobi Chamber of Commerce logo"
-          />
+          <source media="(max-width: 500px)" srcset="images/herosmall.jpg">
+          <source media="(max-width: 991px)" srcset="images/heromedium.jpg">
+          <source media="(max-width: 2000px)" srcset="images/herolarge.jpg">
+          <img src="images/herolarge" alt="hero image">
         </picture>
-        <section class="footer1">
-          Nairobi Chamber of Commerce<br />P.O.BOX 9644-00100,<br />Nairobi,
-          Kenya.
-        </section>
-        <section class="footer2">
-          georgeogidi18@gmail.com<br />
-          +254 704 469 693,<br />
-          LOCATION MAP.
-        </section>
+        <button class="herobutton" type="submit">
+          <h2>Join the Chamber</h2>
+        </button>
+        <div class="heromessage">
+          <h2>Welcome to Nairobi</h2>
+        </div>
       </div>
-      <section class="footer3">
-        @ 2022 NAIROBI CHAMBER<br />
-        GEORGE OGIDI<br />
-        WDD 230 PROJECT <br />
-        <div id="lastUpdated"></div>
+      <div class="event">
+        <p class="pevent">
+          Ribbon Cutting<br />
+          The Diamond Shack<br /><br />
+          Join us for the grand re-opening<br />
+          of the diamond shack, Thursday at 1pm<br />
+          more info...
+        </p>
+      </div>
+      <div class="weather">
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/weathersmall.jpg">
+          <source media="(max-width: 991px)" srcset="images/weathermedium.jpg">
+          <source media="(max-width: 2000px)" srcset="images/weatherlarge.jpg">
+          <img src="images/weatherlarge" alt="weather image">
+        </picture>
+        <div class="weatherdetails">
+          <h2>Weather</h2>
+          <p class="pweather">
+          <pre>Temparature:     <span id="temp">33</span>°C</pre>
+          <pre>        Partly Cloudy</pre>
+          <pre>Wind Speed:    <span id="speed">25</span>km/h</pre>
+          <pre id="feelTemp">Wind Chill:    <span id="windchill"></span></pre>
+          </p>
+        </div>
+      </div>
+      <div class="newsrelease">
+        <p class="pnews">
+        <h2>News Release</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+        </p>
+      </div>
+      <div class="join">
+        <button class="joinbutton" type="submit">
+          <h2>Join the Chamber</h2>
+        </button>
+        <p class="pjoin">Discover how to join the chamber of commerce and how it will benefit your<br /> organisation
+        </p>
+      </div>
+      <div class="wrapperspotlight">
+        <div class="spotlight1">
+          <h2 id="thankful">Thankful Transport</h2>
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/thankfultransportsmall.jpg">
+            <source media="(max-width: 991px)" srcset="images/thankfultransportmedium.jpg">
+            <source media="(max-width: 2000px)" srcset="images/thankfultransportlarge.jpg">
+            <img src="images/thankfultransportlarge" alt="Spotlight 1 image">
+          </picture>
+          <p><em>"We get it there for you"</em></p>
+          <section class="spot1">
+            <p>hello@thankfultransport.com<br />999-999-999 | Website</p>
+          </section>
+        </div>
+        <div class="spotlight2">
+          <h2 id="thankful">Bethville Farm</h2>
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/bethvillefarmsmall.jpg">
+            <source media="(max-width: 991px)" srcset="images/bethvillefarmmedium.jpg">
+            <source media="(max-width: 2000px)" srcset="images/bethvillefarmlarge.jpg">
+            <img src="images/bethvillefarmlarge" alt="Spotlight 2 image">
+          </picture>
+          <p><em>"We deliver at your door step"</em></p>
+          <section class="spot2">
+            <p>bethville@farm.com<br />999-999-999 | Website</p>
+          </section>
+        </div>
+        <div class="spotlight3">
+          <h2 id="thankful">Code Primera</h2>
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/codemysmall.jpg">
+            <source media="(max-width: 991px)" srcset="images/codemymedium.jpg">
+            <source media="(max-width: 2000px)" srcset="images/codemylarge.jpg">
+            <img src="images/codemylarge" alt="Spotlight 3 image">
+          </picture>
+          <p><em>"A school coding instructional program"</em></p>
+          <section class="spot3">
+            <p>contact@codeprimera.com<br />999-999-999 | Website</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footerFlex">
+      <picture class="footerImage">
+        <source media="(max-width: 500px)" srcset="images/logosmall.webp">
+        <source media="(max-width: 991px)" srcset="images/logomedium.webp">
+        <source media="(max-width: 2000px)" srcset="images/logolarge.webp">
+        <img src="images/logolarge" alt="footer logo">
+      </picture>
+      <section class="footer1">
+        Nairobi Chamber of Commerce<br />P.O.BOX 9644-00100,<br />Nairobi,
+        Kenya.
       </section>
-      <section class="footer4">
-        @ 2022 NAIROBI CHAMBER| GEORGE OGIDI| WDD 230 PROJECT|
-        <div id="LastUpdated"></div>
+      <section class="footer2">
+        georgeogidi18@gmail.com<br />
+        +254 704 469 693,<br />
+        LOCATION MAP.
       </section>
-    </footer>
-    <script src="js/chamber.js"></script>
-  </body>
+    </div>
+    <section class="footer3">
+      @ 2022 NAIROBI CHAMBER<br />
+      GEORGE OGIDI<br />
+      WDD 230 PROJECT <br />
+      <div id="lastUpdated"></div>
+    </section>
+    <section class="footer4">
+      @ 2022 NAIROBI CHAMBER| GEORGE OGIDI| WDD 230 PROJECT|
+      <div id="LastUpdated"></div>
+    </section>
+  </footer>
+  <script src="js/chamber.js"></script>
+  <script src="js/windchill.js"></script>
+</body>
+
 </html>

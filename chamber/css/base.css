@@ -1,7 +1,12 @@
-header {
+.headerItems{
   background-color: aquamarine;
   padding: 10px;
   display: flex;
+  width: 97%;
+  height: fit-content;
+}
+#lastupdated {
+  display:block;
 }
 .m {
   letter-spacing: 1pt;
@@ -26,9 +31,7 @@ h1 {
   width: 25px;
   height: auto;
 }
-#lastupdated {
-  background-color: cadetblue;
-}
+
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -36,9 +39,7 @@ nav button {
   font-size: 2rem;
   color: #555;
 }
-nav {
-  background-color: rgb(160, 236, 236);
-}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -92,17 +93,17 @@ nav ul.open {
 }
 .herobutton {
   position: absolute;
-  top: 250px;
+  top: 400px;
   right: 40px;
-  padding: 1rem;
+  padding: .5rem;
   opacity: 0.7;
 }
 .heromessage {
   position: absolute;
-  top: 200px;
-  right: 10rem;
+  top: 310px;
+  right: 8rem;
   font-size: larger;
-  color: #c2cfeb;
+  color: #050a14;
   font-weight: bolder;
 }
 .event {
@@ -124,7 +125,7 @@ nav ul.open {
   float: center;
   padding: 1rem;
   font-weight: bolder;
-  font-size: larger;
+  font-size:medium;
   margin-top: -12rem;
   color: black;
 }
@@ -181,9 +182,10 @@ footer {
   margin-bottom: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   background-color: turquoise;
+  width: 100%;
 }
 .footerImage {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .footer2 {
   margin-top: 10px;
