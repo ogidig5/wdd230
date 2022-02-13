@@ -38,12 +38,12 @@
     grid-row: 1;
   }
   .herobutton {
-    top: 300px;
+    top: 100px;
     right: 40px;
   }
   .heromessage {
     position: absolute;
-    top: 210px;
+    top: 10px;
     right: 18rem;
     font-size: larger;
     color: #050a14;

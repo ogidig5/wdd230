@@ -19,6 +19,16 @@
 h1 {
   margin-left: 10px;
 }
+#banner {
+  display: none;
+  background-color: rgb(13, 156, 175);
+  color: white;
+  padding: 1px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Montserrat", serif;
+  font-size: larger;
+}
 .social {
   margin-right: 1.5rem;
   display: flex;
@@ -86,6 +96,7 @@ nav ul.open {
   background-color: whitesmoke;
 }
 .hero {
+  position: relative;
   border-style: groove;
   margin-top: 20px;
   padding: 10px;
@@ -93,14 +104,14 @@ nav ul.open {
 }
 .herobutton {
   position: absolute;
-  top: 400px;
+  top: 100px;
   right: 40px;
   padding: .5rem;
   opacity: 0.7;
 }
 .heromessage {
   position: absolute;
-  top: 310px;
+  top: 10px;
   right: 8rem;
   font-size: larger;
   color: #050a14;
@@ -122,7 +133,6 @@ nav ul.open {
   background-color: rgb(54, 99, 235);
 }
 .weatherdetails {
-  float: center;
   padding: 1rem;
   font-weight: bolder;
   font-size:medium;

@@ -14,8 +14,11 @@
 </head>
 
 <body>
+  <div id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
   <header>
-    <section class="headerItems">
+    <div class="headerItems">
       <picture class="headerImage">
         <source media="(max-width: 500px)" srcset="images/logosmall.webp">
         <source media="(max-width: 991px)" srcset="images/logomedium.webp">
@@ -24,7 +27,7 @@
       </picture>
       <section class="headings">
         <h1>Nairobi Chamber of Commerce</h1>
-        <div class="m">The way to do business!</div></br></br></br>
+        <div class="m">The way to do business!</div><br /><br /><br />
         <p id="lastupdated">Last Updated</p>
       </section>
       <div class="social">
@@ -47,7 +50,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      </div>
+    </div>
   </header>
 
   <main>
@@ -60,7 +63,7 @@
           <img src="images/herolarge" alt="hero image">
         </picture>
         <button class="herobutton" type="submit">
-          <h2>Join the Chamber</h2>
+          Join the Chamber
         </button>
         <div class="heromessage">
           <h2>Welcome to Nairobi</h2>
@@ -84,37 +87,36 @@
         </picture>
         <div class="weatherdetails">
           <h2>Weather</h2>
-          <p class="pweather">
+
           <pre>Temparature:     <span id="temp">33</span>°C</pre>
           <pre>        Partly Cloudy</pre>
           <pre>Wind Speed:    <span id="speed">25</span>km/h</pre>
           <pre id="feelTemp">Wind Chill:    <span id="windchill"></span></pre>
-          </p>
+
         </div>
       </div>
       <div class="newsrelease">
-        <p class="pnews">
         <h2>News Release</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
+        <p class="pnews">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
       <div class="join">
         <button class="joinbutton" type="submit">
-          <h2>Join the Chamber</h2>
+          Join the Chamber
         </button>
         <p class="pjoin">Discover how to join the chamber of commerce and how it will benefit your<br /> organisation
         </p>
       </div>
       <div class="wrapperspotlight">
         <div class="spotlight1">
-          <h2 id="thankful">Thankful Transport</h2>
+          <h2 id="thankfull">Thankful Transport</h2>
           <picture>
             <source media="(max-width: 500px)" srcset="images/thankfultransportsmall.jpg">
             <source media="(max-width: 991px)" srcset="images/thankfultransportmedium.jpg">
@@ -122,9 +124,9 @@
             <img src="images/thankfultransportlarge" alt="Spotlight 1 image">
           </picture>
           <p><em>"We get it there for you"</em></p>
-          <section class="spot1">
+          <div class="spot1">
             <p>hello@thankfultransport.com<br />999-999-999 | Website</p>
-          </section>
+          </div>
         </div>
         <div class="spotlight2">
           <h2 id="thankful">Bethville Farm</h2>
@@ -135,12 +137,12 @@
             <img src="images/bethvillefarmlarge" alt="Spotlight 2 image">
           </picture>
           <p><em>"We deliver at your door step"</em></p>
-          <section class="spot2">
+          <div class="spot2">
             <p>bethville@farm.com<br />999-999-999 | Website</p>
-          </section>
+          </div>
         </div>
         <div class="spotlight3">
-          <h2 id="thankful">Code Primera</h2>
+          <h2 id="thankfully">Code Primera</h2>
           <picture>
             <source media="(max-width: 500px)" srcset="images/codemysmall.jpg">
             <source media="(max-width: 991px)" srcset="images/codemymedium.jpg">
@@ -148,9 +150,9 @@
             <img src="images/codemylarge" alt="Spotlight 3 image">
           </picture>
           <p><em>"A school coding instructional program"</em></p>
-          <section class="spot3">
+          <div class="spot3">
             <p>contact@codeprimera.com<br />999-999-999 | Website</p>
-          </section>
+          </div>
         </div>
       </div>
     </div>
@@ -163,29 +165,30 @@
         <source media="(max-width: 2000px)" srcset="images/logolarge.webp">
         <img src="images/logolarge" alt="footer logo">
       </picture>
-      <section class="footer1">
+      <div class="footer1">
         Nairobi Chamber of Commerce<br />P.O.BOX 9644-00100,<br />Nairobi,
         Kenya.
-      </section>
-      <section class="footer2">
+      </div>
+      <div class="footer2">
         georgeogidi18@gmail.com<br />
         +254 704 469 693,<br />
         LOCATION MAP.
-      </section>
+      </div>
     </div>
-    <section class="footer3">
+    <div class="footer3">
       @ 2022 NAIROBI CHAMBER<br />
       GEORGE OGIDI<br />
       WDD 230 PROJECT <br />
       <div id="lastUpdated"></div>
-    </section>
-    <section class="footer4">
+    </div>
+    <div class="footer4">
       @ 2022 NAIROBI CHAMBER| GEORGE OGIDI| WDD 230 PROJECT|
       <div id="LastUpdated"></div>
-    </section>
+    </div>
   </footer>
   <script src="js/chamber.js"></script>
   <script src="js/windchill.js"></script>
+  <script src="js/banner.js"></script>
 </body>
 
 </html>
