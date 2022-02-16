@@ -1,0 +1,16 @@
+body {
+  max-width: 50%;
+  margin: auto;
+}
+
+img {
+  min-width: 50px;
+  min-height: 50px;
+  display:block;
+  filter: blur(0em);
+	transition: filter 2s;
+}
+
+img[data-src] {
+	filter: blur(0.5em);
+}
