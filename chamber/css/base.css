@@ -1,13 +1,22 @@
+#lastupdated {
+  display:flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
 .headerItems{
   background-color: aquamarine;
   padding: 10px;
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 97%;
   height: fit-content;
 }
-#lastupdated {
-  display:block;
-}
+
+
 .m {
   letter-spacing: 1pt;
   color: rgb(22, 13, 153);
@@ -32,6 +41,7 @@ h1 {
 .social {
   margin-right: 1.5rem;
   display: flex;
+  order: 1;
   padding-top: 20px;
 }
 .twitter {
@@ -214,4 +224,7 @@ h1,
 h2,
 p {
   margin: 0;
+}
+.shadow:hover {
+  box-shadow: none;
 }

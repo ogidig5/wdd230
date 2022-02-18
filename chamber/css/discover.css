@@ -1,0 +1,44 @@
+body {
+	background-color: blue;
+}
+
+main {
+
+  margin: 0 auto;
+  width: 90%;
+  /*background-color: skyblue;*/
+  color: black;
+	font-size: x-large;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 10px;
+  background-image: url("https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+h1 {
+  grid-column: 1 / -1;
+	text-align: center;
+	color: black;
+}
+
+img[data-src] {
+  filter: blur(0.5em);
+}
+
+img {
+  grid-column: 1 / 1;
+  filter: blur(0em);
+  transition: filter 2s;
+}
+
+article {
+  grid-column: 2 / 3;
+}
+
+.shadow:hover {
+  box-shadow: 0 0 50px #333;
+}

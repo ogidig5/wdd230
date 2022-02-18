@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
   }
+
   
   #social {
     justify-items: right;
@@ -126,5 +127,8 @@
     padding-bottom: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 10px;
+  }
+  .shadow:hover {
+    box-shadow: 0 0 50px #333;
   }
 }
