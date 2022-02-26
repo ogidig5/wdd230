@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nairobi Chamber of Commerce join page</title>
+  <meta name="description" content="Welcome to the join page of the chamber" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link type="text/css" rel="stylesheet" href="css/base.css" />
+  <link type="text/css" rel="stylesheet" href="css/medium.css" />
+  <link type="text/css" rel="stylesheet" href="css/large.css" />
+</head>
+
+<body>
+  <div id="banner">
+    <p>
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </p>
+  </div>
+  <header>
+    <div class="headerItems">
+      <picture class="headerImage">
+        <source media="(max-width: 500px)" srcset="images/logosmall.webp" />
+        <source media="(max-width: 991px)" srcset="images/logomedium.webp" />
+        <source media="(max-width: 2000px)" srcset="images/logolarge.webp" />
+        <img src="images/logolarge" alt="header logo" />
+      </picture>
+      <section class="headings">
+        <h2>Nairobi Chamber of Commerce</h2>
+        <div class="m">The way to do business!</div>
+        <br /><br /><br />
+      </section>
+
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100004971191346">
+          <img class="icon-1" src="images/twittericonnobg.png" alt="Twitter icon">
+        </a>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100004971191346">
+          <img class="icon-2" src="images/Facebook-logonobg.png" alt="Facebook icon">
+        </a>
+      </div>
+
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li class="active"><a href="#">Directory</a></li>
+          <li><a href="join.html">Join us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <p id="lastupdated"></p>
+  <main class="form">
+    <h1 class="formHeading">Welcome to the join page</h1>
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label class="top">First Name*<input type="text" name="fname" required></label>
+        <label class="top">Last Name*<input type="text" name="lname" required></label>
+        <label class="top">Title<input type="text" name="lname" minlength="7" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
+        <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+        <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+        <label class="top">Business Name<input type="text" name="bname" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Membership levels</legend>
+        <label class="top">Course Subject
+          <select name="subject">
+            <option>Please Select &#9662;</option>
+            <option value="software">NP Membership is for non profit organizations and there is no fee.</option>
+            <option value="math">Bronze membership</option>
+            <option value="english">Silver Membership</option>
+            <option value="science">Gold membership</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Business Description</legend>
+        <label for="t3">Business decription(maximum of 140 words)</label><br />
+        <textarea id="t3" name="msg" maxlength="140" rows="5" cols="35"></textarea>
+      </fieldset>
+      <input type="hidden" name="startdate" id="todayDate" />
+      <input type="submit" value="join the chamber" class="submitBtn">
+    </form>
+  </main>
+  <footer>
+    <div class="footerFlex">
+      <picture class="footerImage">
+        <source media="(max-width: 500px)" srcset="images/logosmall.webp" />
+        <source media="(max-width: 991px)" srcset="images/logomedium.webp" />
+        <source media="(max-width: 2000px)" srcset="images/logolarge.webp" />
+        <img src="images/logolarge" alt="footer logo" />
+      </picture>
+      <div class="footer1">
+        Nairobi Chamber of Commerce<br />P.O.BOX 9644-00100,<br />Nairobi,
+        Kenya.
+      </div>
+      <div class="footer2">
+        georgeogidi18@gmail.com<br />
+        +254 704 469 693,<br />
+        LOCATION MAP.
+      </div>
+    </div>
+    <div class="footer3">
+      @ 2022 NAIROBI CHAMBER<br />
+      GEORGE OGIDI<br />
+      WDD 230 PROJECT <br />
+      <div id="lastUpdated"></div>
+    </div>
+    <div class="footer4">
+      @ 2022 NAIROBI CHAMBER| GEORGE OGIDI| WDD 230 PROJECT|
+      <div id="LastUpdated"></div>
+    </div>
+  </footer>
+  <script src="js/chamber.js"></script>
+  <script src="js/banner.js"></script>
+  <script src="js/hiddendate.js"></script>
+</body>
+
+</html>

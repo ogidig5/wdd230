@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   font-weight: bolder;
+  margin-top: -20px;
 }
 .headerItems{
   background-color: aquamarine;
@@ -46,10 +47,6 @@ h1 {
 }
 .twitter {
   padding-left: 5px;
-}
-.social svg {
-  width: 25px;
-  height: auto;
 }
 
 nav button {
@@ -228,4 +225,72 @@ p {
 .shadow:hover {
   box-shadow: none;
 }
+/*...............SMALL FORM LAYOUT...........*/
 
+.form {
+  padding: 1rem;
+  background-color: rgb(65, 253, 244);
+}
+
+main .formHeading {
+  text-align: center; 
+}
+.thanksform {
+  padding: 1rem;
+  background-color: blue;
+  color:aliceblue;
+  margin-top: 3rem;
+  text-align: center;
+  font-size:x-large;
+  font-weight: bolder;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+form legend {
+  color: blue;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+form label.top, form div{
+  display: block;
+  padding-top: 1rem;
+  color: rgb(2, 11, 12);
+  font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: .75rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: lightgrey;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(28, 14, 155);
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
