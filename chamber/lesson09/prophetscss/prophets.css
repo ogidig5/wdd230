@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (min-width:30rem) {
+@media screen and (min-width:35rem) {
   .cards {
       grid-template-columns: 1fr 1fr;
       gap: 5px;
