@@ -1,4 +1,4 @@
-@media screen and (min-width:12.5rem) {
+@media screen and (min-width:12rem) {
   h1 {
       text-align: center;
       background-color:#282D3C;
@@ -22,7 +22,7 @@
   }
 
   img {
-      max-width: 10rem;
+      max-width: 6rem;
       margin: 1rem;
       border-style: outset;
       border-width: .5rem;
@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (min-width:26rem) {
+@media screen and (min-width:30rem) {
   .cards {
       grid-template-columns: 1fr 1fr;
       gap: 5px;
