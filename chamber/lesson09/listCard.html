@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switching Between Card and List</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: blueviolet;
+      overflow: hidden;
+    }
+
+    .container {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 500px;
+      height: 350px;
+      margin: 100px auto;
+    }
+
+    /* .container, .list {
+    height: -100px;
+  } */
+    /* .icon {
+      width: 100px;
+      height: 40px;
+      position: absolute;
+      right: -10px;
+      display: flex;
+    } */
+    .list,
+    .grid {
+      width: 35px;
+      height: 5px;
+      position: relative;
+      cursor: pointer;
+      margin: 0 10px 0 0;
+    }
+
+    .list span {
+      width: 30px;
+      height: 5px;
+      background: white;
+      position: absolute;
+      top: -10px;
+      left: 10rem;
+    }
+
+    .list span:nth-child(2) {
+      top: -20px;
+    }
+
+    .list span:nth-child(3) {
+      top: -30px;
+    }
+
+    .grid span {
+      width: 12px;
+      height: 11px;
+      background: white;
+      position: absolute;
+      left: 15rem;
+      top: -18px;
+    }
+
+    .grid span:nth-child(2) {
+      top: -35px;
+    }
+
+    .grid span:nth-child(3) {
+      left: 16rem;
+    }
+
+    .grid span:nth-child(4) {
+      top: -35px;
+      left: 16rem;
+    }
+
+    .ltg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 20px;
+    }
+
+    .ltg div {
+      width: 90%;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background: red;
+      margin: 10px;
+    }
+
+    .ltg.list {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      /* margin-top: -150px; */
+    }
+
+    .ltg.list div {
+      width: 95%;
+      height: 100px;
+      margin-top: -5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="icon"></div>
+    <div class="list">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="grid">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="ltg">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+      <div class="column">Column 3</div>
+      <div class="column">Column 4</div>
+      
+    </div>
+    
+  </div>
+  <script>
+    const list = document.querySelector(".list");
+    const grid = document.querySelector(".grid");
+    const ltg = document.querySelector(".ltg");
+
+    list.addEventListener("click", () => {
+      ltg.classList.add("list")
+    })
+    grid.addEventListener("click", () => {
+      ltg.classList.remove("list")
+    })
+  </script>
+</body>
+
+</html>
