@@ -98,5 +98,14 @@
     box-shadow: 0 0 50px #333;
   }
   /*...............LARGE FORM LAYOUT...........*/
+/*-------------Directory Large-----------------*/
 
+#dirCards {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+#dirCards.hidden, #dirList.hidden {
+  display: none;
+}
 }

@@ -69,10 +69,10 @@ nav ul li a {
   color: #333;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-/*nav ul li.active a{
+nav ul li.active a{
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
-}*/
+}
 nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -293,4 +293,108 @@ form label.top input:required {
 }
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+/*-----------Directory Small-----------------*/
+.bizdir {
+  text-align: center;
+  background-color:blue;
+  padding: 1.5rem;
+  color: white;
+  margin-top: 5px;
+}
+.dirMain {
+  background-color: #91A8D0;
+}
+
+#dirBtn {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.grid-current {
+  margin-right: 1rem;
+}
+
+#dirBtn button {
+  background-color: aqua;
+  border: 3px outset black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dirBtn button:active {
+  background-color: blueviolet;
+}
+
+#dirBtn button.current {
+  background-color: blue;
+}
+
+#dirCards section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  background-color:#0D5BE1;
+  justify-items:center;
+  align-items: center;
+  border-style: outset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 18rem;
+  height: 24rem;
+  margin: 0 auto;
+  
+}
+
+#dirCards img {
+  max-width: 10rem;
+  margin: 0 auto;
+  border-style: outset;
+  border-width: .5rem;
+}
+#dirCards img:hover {
+  box-shadow: 0 0 50px gold;
+}
+
+#dirCards section p {
+  color: black;
+  align-self: center;
+  margin: .5em;
+  line-height: 0;
+  font-size: larger;
+
+}
+
+#dirCards section a {
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: larger;
+}
+
+#dirList {
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+#dirList section {
+  text-align: center;
+  width: 90%;
+  background-color: #007FFF;
+  color: black;
+  margin: 0 auto;
+  font-size: larger;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#dirList section:nth-child(odd) {
+  background-color: #fdfff5;
+}
+
+#dirCards.hidden, #dirList.hidden {
+  display: none;
 }

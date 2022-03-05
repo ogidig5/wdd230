@@ -1,136 +1,100 @@
 {
-  "prophets": [
+  "business": [
     {
-      "name": "Joseph",
-      "lastname": "Smith",
-      "birthdate": "23 December 1805",
-      "death": "27 June 1844",
-      "length": 14,
-      "order": 1,
-      "birthplace": "Vermont",
-      "numofchildren": 11,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      "name": "Bethville Farm",
+      "address": "Mwihoko, Kiambu",
+      "phone": "0704469693",
+      "email": "georgeogidi18@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image1.jpg"
     },
     {
-      "name": "Brigham",
-      "lastname": "Young",
-      "birthdate": "01 June 1801",
-      "death": "29 August 1877",
-      "length": 30,
-      "order": 2,
-      "birthplace": "Vermont",
-      "numofchildren": 56,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+      "name": "Software Technologies",
+      "address": "Mercantile House",
+      "phone": "0754632633",
+      "email": "softwaretech@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image2.jpg"
     },
     {
-      "name": "John",
-      "lastname": "Taylor",
-      "birthdate": "01 November 1808",
-      "death": "25 July 1887",
-      "length": 6,
-      "order": 3,
-      "birthplace": "England",
-      "numofchildren": 34,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      "name": "Hopematt Supermarket",
+      "address": "Hongs Bakery & Restaurant",
+      "phone": "0775859353",
+      "email": "hopemattmarket@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image3.jpg"
     },
     {
-      "name": "Wilford",
-      "lastname": "Woodruff",
-      "birthdate": "01 March 1807",
-      "death": "02 September 1898",
-      "length": 9,
-      "order": 4,
-      "birthplace": "Connecticut",
-      "numofchildren": 34,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      "name": "Valentines Cake shop",
+      "address": "Dev Towers, Biashara",
+      "phone": "070897634",
+      "email": "valentinescake@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image4.jpg"
     },
     {
-      "name": "Lorenzo",
-      "lastname": "Snow",
-      "birthdate": "03 April 1814",
-      "death": "19 October 1901",
-      "length": 3,
-      "order": 5,
-      "birthplace": "Ohio",
-      "numofchildren": 42,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      "name": "Dogs Kennel",
+      "address": "18514-00500 Enterprise Rd",
+      "phone": "0700967433",
+      "email": "dogskennel@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image5.jpg"
     },
     {
-      "name": "Joseph F.",
-      "lastname": "Smith",
-      "birthdate": "12 November 1838",
-      "death": "19 November 1918",
-      "length": 17,
-      "order": 6,
-      "birthplace": "Missouri",
-      "numofchildren": 48,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      "name": "Juja Farm",
+      "address": "Laxmi Plaza, Biashara St",
+      "phone": "0704975321",
+      "email": "jujafarm@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image6.jpg"
     },
     {
-      "name": "Heber J.",
-      "lastname": "Grant",
-      "birthdate": "22 November 1856",
-      "death": "14 May 1945",
-      "length": 23,
-      "order": 7,
-      "birthplace": "Utah",
-      "numofchildren": 12,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+      "name": "Eat and Lick",
+      "address": "Haile Selassie Rd",
+      "phone": "0790546735",
+      "email": "eatnlick@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image7.jpg"
     },
     {
-      "name": "George A.",
-      "lastname": "Smith",
-      "birthdate": "4 April 1870",
-      "death": "4 April 1951",
-      "length": 6,
-      "order": 8,
-      "birthplace": "Utah",
-      "numofchildren": 3,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+      "name": "Shawarma",
+      "address": "Gill House, Tom Mboya St",
+      "phone": "0745234334",
+      "email": "shawarma@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image8.jpg"
     },
     {
-      "name": "David O.",
-      "lastname": "McKay",
-      "birthdate": "8 September 1873",
-      "death": "18 January 1970",
-      "length": 19,
-      "order": 9,
-      "birthplace": "Utah",
-      "numofchildren": 7,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+      "name": "3D Cinema",
+      "address": "Sonalux House, Moi Ave",
+      "phone": "0787678564",
+      "email": "3dcinema@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image9.jpg"
     },
     {
-      "name": "Joseph Fielding",
-      "lastname": "Smith",
-      "birthdate": "19 July 1876",
-      "death": "2 July 1972",
-      "length": 1,
-      "order": 10,
-      "birthplace": "Utah",
-      "numofchildren": 11,
-      "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+      "name": "Water Drillers",
+      "address": "Sound Plaza, Woodvale Grv",
+      "phone": "0735664523",
+      "email": "waterdrillers@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image":"images/image10.jpg"
     },
     {
-      "name": "Harold B.",
-      "lastname": "Lee",
-      "birthdate": "28 March 1899",
-      "death": "26 December 1973",
-      "length": 1,
-      "order": 11,
-      "birthplace": "Idaho",
-      "numofchildren": 2,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
+      "name": "Real Estate",
+      "address": "Jogoo Rd, Nairobi",
+      "phone": "0702156784",
+      "email": "realestate@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image11.jpg"
     },
     {
-      "name": "Spencer W.",
-      "lastname": "Kimball",
-      "birthdate": "28 March 1895",
-      "death": "5 November 1985",
-      "length": 12,
-      "order": 12,
-      "birthplace": "Utah",
-      "numofchildren": 4,
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+      "name": "Soccer FC",
+      "address": "Uniafric Hse, Koinange St",
+      "phone": "0705678434",
+      "email": "soccerfc@gmail.com",
+      "website": "https://ogidig5.github.io/",
+      "image": "images/image12.jpg"
     }
   ]
 }

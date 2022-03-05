@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nairobi Chamber of Commerce join page</title>
-  <meta name="description" content="Welcome to the join page of the chamber" />
+  <title>Nairobi Chamber of Commerce Directory page</title>
+  <meta name="description" content="Welcome to the directory page of the chamber" />
   <link rel="stylesheet" href="css/normalize.css" />
   <link type="text/css" rel="stylesheet" href="css/base.css" />
   <link type="text/css" rel="stylesheet" href="css/medium.css" />
@@ -57,40 +57,15 @@
     </div>
   </header>
   <p id="lastupdated"></p>
-  <main class="form">
-    <h1 class="formHeading">Welcome to the join page</h1>
-    <form method="get" action="thanks.html">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label class="top">First Name*<input type="text" name="fname" required></label>
-        <label class="top">Last Name*<input type="text" name="lname" required></label>
-        <label class="top">Title<input type="text" name="lname" minlength="7" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
-        <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
-        <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
-        <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
-        <label class="top">Business Name<input type="text" name="bname" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
-      </fieldset>
-      <fieldset>
-        <legend>Membership levels</legend>
-        <label class="top">Course Subject
-          <select name="subject">
-            <option>Please Select &#9662;</option>
-            <option value="software">NP Membership is for non profit organizations and there is no fee.</option>
-            <option value="math">Bronze membership</option>
-            <option value="english">Silver Membership</option>
-            <option value="science">Gold membership</option>
-          </select>
-        </label>
-      </fieldset>
-      <fieldset>
-        <legend>Business Description</legend>
-        <label for="t3">Business decription(maximum of 140 words)</label><br />
-        <textarea id="t3" name="msg" maxlength="140" rows="5" cols="30"></textarea>
-      </fieldset>
-      <input type="hidden" name="startdate" id="todayDate" />
-      <input type="submit" value="join the chamber" class="submitBtn">
-    </form>
-  </main>
+  <main class="dirMain">
+    <h1 class="bizdir">Business Directory</h1>
+    <div id="dirBtn">
+        <button id="grid-btn" class="grid-current"><img src="images/grid_button.png" alt="Grid button image"></button>
+        <button id="list-btn"><img src="images/list_button.png" alt="List button image"></button>
+    </div>
+    <div id="dirCards"></div>
+    <div id="dirList" class="hidden"></div>
+</main>
   <footer>
     <div class="footerFlex">
       <picture class="footerImage">
@@ -123,6 +98,8 @@
   <script src="js/chamber.js"></script>
   <script src="js/banner.js"></script>
   <script src="js/hiddendate.js"></script>
+  <script src="js/directory.js"></script>
+  <script src="js/directory-toggle.js"></script>
 </body>
 
 </html>
