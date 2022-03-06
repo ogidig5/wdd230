@@ -230,12 +230,14 @@ p {
 main.form {
   padding: 1rem;
   background-color: rgb(65, 253, 244);
-  
+  margin-top: 10px;
 }
 form {
   margin:0 auto;
 }
-
+body {
+  padding: 5px;
+}
 main .formHeading {
   text-align: center; 
   text-transform: uppercase;
@@ -254,12 +256,15 @@ form fieldset {
   border: 1px solid blue;
   border-radius: 10px;
   padding: .5rem;
+  background-color:#91A8D0;
 }
 
 form legend {
-  color: blue;
+  color: black;
   margin: 0 1rem;
   padding: 0;
+  font-weight: bold;
+  font-size: larger;
 }
 
 form label.top{
@@ -313,6 +318,7 @@ form label.sbs {
   display: block;
   padding: .75rem 0;
   color: black;
+  font-size: larger;
 }
 
 /*-----------Directory Small-----------------*/

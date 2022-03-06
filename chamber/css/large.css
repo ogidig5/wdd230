@@ -111,6 +111,9 @@
     text-align: center;
     font-weight: bold;
   }
+  form input.submitBtn {
+    margin-left: 40rem;
+  }
   /*-------------Directory Large-----------------*/
 
   #dirCards {

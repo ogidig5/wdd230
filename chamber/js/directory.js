@@ -1,4 +1,4 @@
-const requestURL = 'ogidig5.github.io/wdd230/chamber/lesson09/business.json';
+const requestURL = 'https://ogidig5.github.io/wdd230/chamber/lesson09/business.json';
 
 const cards = document.getElementById('dirCards');
 const list = document.getElementById('dirList');
