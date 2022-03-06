@@ -22,7 +22,7 @@
   }
   .heromessage {
     right: 12rem;
-    font-size:x-large;
+    font-size: x-large;
   }
   .herobutton {
     position: absolute;
@@ -69,7 +69,7 @@
     width: 23%;
     margin-top: 10px;
     background-color: rgb(113, 184, 247);
-    }
+  }
   .wrapperspotlight {
     display: grid;
     grid-column: 4;
@@ -98,14 +98,28 @@
     box-shadow: 0 0 50px #333;
   }
   /*...............LARGE FORM LAYOUT...........*/
-/*-------------Directory Large-----------------*/
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
+  .memberInfo {
+    display:block;
+    font-size:larger;
+    line-height: 2.1rem;
+    background-color: rgba(0, 140, 255, 0.829);
+  }
+  .memberInfoP {
+    text-align: center;
+    font-weight: bold;
+  }
+  /*-------------Directory Large-----------------*/
 
-#dirCards {
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 40px;
-}
+  #dirCards {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+  }
 
-#dirCards.hidden, #dirList.hidden {
-  display: none;
-}
+  #dirCards.hidden,
+  #dirList.hidden {
+    display: none;
+  }
 }

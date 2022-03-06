@@ -227,13 +227,18 @@ p {
 }
 /*...............SMALL FORM LAYOUT...........*/
 
-.form {
+main.form {
   padding: 1rem;
   background-color: rgb(65, 253, 244);
+  
+}
+form {
+  margin:0 auto;
 }
 
 main .formHeading {
   text-align: center; 
+  text-transform: uppercase;
 }
 .thanksform {
   padding: 1rem;
@@ -257,14 +262,15 @@ form legend {
   padding: 0;
 }
 
-form label.top, form div{
+form label.top{
   display: block;
   padding-top: 1rem;
   color: rgb(2, 11, 12);
   font-size: 1rem;
+  
 }
 
-form label.top input, form label.top select {
+form label.top input {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -287,6 +293,15 @@ form input.submitBtn {
   width: 96%;
   max-width: 20rem;
 }
+.memberInfo {
+    border: 6px outset gray;
+    float: right;
+    margin-top: -25rem;
+    margin-right: 10rem;
+    width: 30rem;
+    height: 20rem;
+    display: none;
+}
 
 form label.top input:required {
   border-left: red solid 6px;
@@ -294,6 +309,12 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+}
+
 /*-----------Directory Small-----------------*/
 .bizdir {
   text-align: center;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Sample</title>
+  <style>
+    .form{
+      padding: 1rem;
+      background-color: hotpink;
+    }
+    main .formHeading {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: larger;
+    }
+    form fieldset {
+      border: 3px solid blue;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    form legend {
+      color: blue;
+      margin: 0 auto;
+    }
+    form label.top {
+      display:block;
+      padding-top: 1rem;
+      color: black;
+      font-size: 1.2rem;
+    }
+    form label.top input {
+      display:block;
+      font-size: 1rem;
+      border: 3px solid grey;
+      border-radius: 5px;
+      padding: .75rem;
+      color: black;
+      width: 85%;
+      background-color: lightgrey;
+    }
+    form label.top input:required {
+      border-left: red outset 6px;
+    }
+    form label.top input:required:valid {
+      border-left: green outset 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="form">
+    <h1 class="formHeading">Welcome to the Form Page</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label class="top">First Name:* <input type="text" name="fname" required></label>
+        <label class="top">Last Name:* <input type="text" name="fname" required></label>
+        <label class="top">Email:* <input type="text" name="fname" required></label>
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>

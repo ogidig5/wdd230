@@ -67,12 +67,26 @@
         <label class="top">Title<input type="text" name="lname" minlength="7" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
         <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
         <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
-        <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
         <label class="top">Business Name<input type="text" name="bname" pattern="([^\s][A-z0-9À-ž\s]+)"></label>
+        <div class="memberInfo">
+          <p class="memberInfoP">Here are some great reasons to join Nairobi Chamber of Commerce:</p>
+          <ol>
+            <li>Make business contacts &#10004;</li>
+            <li>Receive chamber newsletters &#10004;</li>
+            <li>Acquire customer referrals &#10004;</li>
+            <li>Increase your visibility in the community &#10004;</li>
+            <li>Bring credibility to your business &#10004;</li>
+            <li>Networking opportunities &#10004;</li>
+          </ol>
+        </div>
       </fieldset>
       <fieldset>
         <legend>Membership levels</legend>
-        <label class="top">Course Subject
+        <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non-Profit(No Fee)</label>
+        <label class="sbs"><input type="radio" name="membership" value="beginner">Bronze</label>
+        <label class="sbs"><input type="radio" name="membership" value="beginner">Silver</label>
+        <label class="sbs"><input type="radio" name="membership" value="beginner">Gold</label>
+        <!-- <label class="top">Course Subject
           <select name="subject">
             <option>Please Select &#9662;</option>
             <option value="software">NP Membership is for non profit organizations and there is no fee.</option>
@@ -80,7 +94,7 @@
             <option value="english">Silver Membership</option>
             <option value="science">Gold membership</option>
           </select>
-        </label>
+        </label> -->
       </fieldset>
       <fieldset>
         <legend>Business Description</legend>
