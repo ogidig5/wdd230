@@ -1,5 +1,5 @@
 
-let temp = parseFloat(document.querySelector("#temp").textContent);
+let temp = parseFloat(document.querySelector("#current-temp").textContent);
 let speed = parseFloat(document.querySelector("#speed").textContent);
 let windchill = "";
 

@@ -1,11 +1,13 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 560px) {
   header {
     background-color: aquamarine;
     padding: 10px;
     display: flex;
     justify-content: space-around;
   }
-
+  .main-heading {
+    display: flex;
+  }
   #social {
     justify-items: right;
     display: flex;
@@ -133,16 +135,14 @@
   /*---------Directory Medium-----------*/
   
   #dirCards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    margin: 0 auto;
+    display: none;
   }
-
-  #dirBtn {
-    width: 20%;
+  #grid-btn {
+    display: none;
   }
-
+  #list-btn {
+    display: block;
+  }
   #dirList {
     display: block;
   }
