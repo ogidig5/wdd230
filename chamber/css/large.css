@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50rem) {
+@media only screen and (min-width: 1000px) {
   .main-heading {
     display: flex;
   }
@@ -119,13 +119,17 @@
   }
   /*-------------Directory Large-----------------*/
 
-  #dirCards {
+  #dirCards{
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     padding-bottom: 40px;
   }
 
   #dirCards.hidden,
   #dirList.hidden {
     display: none;
+  }
+  #grid-btn {
+    display: block;
   }
 }

@@ -133,24 +133,23 @@
     box-shadow: 0 0 50px #333;
   }
   /*---------Directory Medium-----------*/
-  
   #dirCards {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
-  #grid-btn {
-    display: none;
+
+  #dirBtn {
+    width: 20%;
   }
-  #list-btn {
-    display: block;
-  }
+
   #dirList {
     display: block;
   }
-
   #dirList section {
     display: flex;
     justify-content: space-around;
-    height:70px;
+    height: 70px;
   }
 
   #dirList section p {
