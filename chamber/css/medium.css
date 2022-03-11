@@ -134,15 +134,15 @@
   }
   /*---------Directory Medium-----------*/
   #dirCards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    display: none;
   }
 
   #dirBtn {
     width: 20%;
   }
-
+  #grid-btn {
+    display: none;
+  }
   #dirList {
     display: block;
   }
