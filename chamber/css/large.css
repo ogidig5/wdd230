@@ -11,81 +11,142 @@
   nav button {
     display: none;
   }
-
-  .wrapper {
+  main div {
+    max-width: 1150px;
+    margin: 1em auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    grid-gap: 10px;
-    background-color: whitesmoke;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 3fr 2fr;
+    gap: 20px;
   }
-  .hero {
-    grid-column: 2/4;
+  .headerImage {
+    display: block;
+  }
+  main div section,
+  #spotlights section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #spotlights {
+    grid-row: 1 / span 3;
+    grid-column: 3;
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #spotlights section {
+    border: none;
+  }
+
+  #spotlight-3 {
+    display: block;
+  }
+
+  #hero {
+    height: 100%;
+    grid-column: 2;
     grid-row: 1/3;
+    margin: 0;
   }
-  .heromessage {
-    right: 12rem;
+
+  #hero button {
     font-size: x-large;
+    margin-top: 50%;
+    right: 28%;
+    width: 15rem;
+    opacity: .6;
   }
-  .herobutton {
-    position: absolute;
-    top: 300px;
-    right: 12rem;
-    padding: 1rem;
-    opacity: 0.6;
+  #karibu {
+    margin-top: 10px;
   }
-  .event {
-    grid-column: 1;
+  #hero h2 {
+    padding-left: 1em;
+    font-size: 34pt;
+  }
+
+  #hero picture img {
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 15px;
+  }
+  .extraHero {
+    width: 90%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  #news {
+    grid-column: 2;
+    grid-row: 3;
+    height: 100%;
+  }
+
+  #event {
     grid-row: 1;
-    margin-top: 20px;
-    width: 30rem;
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
-  .weather {
+
+  #event p {
+    padding: 5px;
+  }
+
+  #weather {
     grid-column: 1;
     grid-row: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
-  .newsrelease {
-    grid-column: 2/4;
-    grid-row: 3/4;
+
+  #weather p {
+    padding: 5px;
   }
-  .spotlight3 {
-    display: block;
-    border-style: groove;
-    background-color: rgb(65, 180, 225);
-    text-align: center;
-    padding: 10px;
+
+  #weather img {
+    padding-left: 5px;
+    width: 125px;
   }
-  .spot3 {
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    padding-top: 10px;
+
+  #weather #description {
+    font-size: 20pt;
+    text-align: right;
+    padding-right: 2em;
   }
-  .join {
-    display: block;
+
+  #weather table {
+    font-size: 16pt;
+    margin: 8px auto;
+  }
+
+  #join {
     grid-column: 1;
     grid-row: 3;
-    margin-top: 0rem;
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
   }
-  .joinbutton {
-    position: absolute;
-    padding: 1rem;
-    opacity: 1.5;
-    width: 23%;
-    margin-top: 10px;
-    background-color: rgb(113, 184, 247);
+  #join p {
+    font-size: larger;
+    padding-top: 2rem;
+    font-weight: bold;
   }
-  .wrapperspotlight {
-    display: grid;
-    grid-column: 4;
-    grid-row: 1/4;
-    grid-template-columns: 1fr;
-    grid-template-rows: 192px 192px 192px;
-    border-style: groove;
-    height: fit-content;
-    padding: 1rem;
-    margin-top: 20px;
-    padding: 0.5rem;
-    background-color: rgb(21, 11, 160);
-  }
+  
   .footer4 {
     display: flex;
     justify-content: center;
@@ -105,8 +166,8 @@
     padding: 0.4rem 0;
   }
   .memberInfo {
-    display:block;
-    font-size:larger;
+    display: block;
+    font-size: larger;
     line-height: 2.1rem;
     background-color: rgba(0, 140, 255, 0.829);
   }
@@ -119,7 +180,7 @@
   }
   /*-------------Directory Large-----------------*/
 
-  #dirCards{
+  #dirCards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -132,5 +193,19 @@
   }
   #grid-btn {
     display: block;
+  }
+  /*--------Discover Page Large--------*/
+  #discover-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #discover-section p {
+    grid-column: span 2;
+    font-size: x-large;
+    text-align: center;
+  }
+  .contact-us {
+    display: none;
   }
 }

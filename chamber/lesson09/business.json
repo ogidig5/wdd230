@@ -4,25 +4,28 @@
       "name": "Bethville Farm",
       "address": "Mwihoko, Kiambu",
       "phone": "0704469693",
-      "email": "georgeogidi18@gmail.com",
+      "email": "bethville@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image1.jpg"
+      "image": "images/image1.jpg",
+      "membership": "Gold"
     },
     {
-      "name": "Software Technologies",
+      "name": "Software Tech",
       "address": "Mercantile House",
       "phone": "0754632633",
       "email": "softwaretech@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image2.jpg"
+      "image": "images/image2.jpg",
+      "membership": "Gold"
     },
     {
-      "name": "Hopematt Supermarket",
+      "name": "Hopematt",
       "address": "Hongs Bakery & Restaurant",
       "phone": "0775859353",
       "email": "hopemattmarket@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image3.jpg"
+      "image": "images/image3.jpg",
+      "membership": "Silver"
     },
     {
       "name": "Valentines Cake shop",
@@ -30,7 +33,8 @@
       "phone": "070897634",
       "email": "valentinescake@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image4.jpg"
+      "image": "images/image4.jpg",
+      "membership": "Bronze"
     },
     {
       "name": "Dogs Kennel",
@@ -38,7 +42,8 @@
       "phone": "0700967433",
       "email": "dogskennel@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image5.jpg"
+      "image": "images/image5.jpg",
+      "membership": "Gold"
     },
     {
       "name": "Juja Farm",
@@ -46,15 +51,17 @@
       "phone": "0704975321",
       "email": "jujafarm@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image6.jpg"
+      "image": "images/image6.jpg",
+      "membership": "Bronze"
     },
     {
-      "name": "Eat and Lick",
+      "name": "Eat n Lick",
       "address": "Haile Selassie Rd",
       "phone": "0790546735",
       "email": "eatnlick@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image7.jpg"
+      "image": "images/image7.jpg",
+      "membership": "Silver"
     },
     {
       "name": "Shawarma",
@@ -62,7 +69,8 @@
       "phone": "0745234334",
       "email": "shawarma@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image8.jpg"
+      "image": "images/image8.jpg",
+      "membership": "Bronze"
     },
     {
       "name": "3D Cinema",
@@ -70,7 +78,8 @@
       "phone": "0787678564",
       "email": "3dcinema@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image9.jpg"
+      "image": "images/image9.jpg",
+      "membership": "Gold"
     },
     {
       "name": "Water Drillers",
@@ -78,7 +87,8 @@
       "phone": "0735664523",
       "email": "waterdrillers@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image":"images/image10.jpg"
+      "image":"images/image10.jpg",
+      "membership": "Silver"
     },
     {
       "name": "Real Estate",
@@ -86,7 +96,8 @@
       "phone": "0702156784",
       "email": "realestate@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image11.jpg"
+      "image": "images/image11.jpg",
+      "membership": "Gold"
     },
     {
       "name": "Soccer FC",
@@ -94,7 +105,8 @@
       "phone": "0705678434",
       "email": "soccerfc@gmail.com",
       "website": "https://ogidig5.github.io/",
-      "image": "images/image12.jpg"
+      "image": "images/image12.jpg",
+      "membership": "Silver"
     }
   ]
 }

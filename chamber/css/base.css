@@ -1,8 +1,9 @@
-
+body {
+  background-color: #91a8d0;
+}
 #current-date {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  background-color: aquamarine;
   align-items: center;
   justify-content: center;
   font-weight: bolder;
@@ -10,7 +11,7 @@
   width: 99%;
 }
 
-.headerItems{
+.headerItems {
   background-color: aquamarine;
   padding: 10px;
   display: flex;
@@ -70,15 +71,15 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-weight: bold;
 }
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
   color: #333;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-nav ul li.active a{
+nav ul li.active a {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -104,118 +105,206 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 200px 200px 200px 200px 200px;
-  grid-gap: 10px;
-  background-color: whitesmoke;
-  
+.headerImage {
+  display: none;
 }
-.hero {
+.headings {
+  font-size: small;
+  margin-left: 3rem;
+}
+main div section,
+#spotlights section {
+  font-size: large;
+  width: 85%;
+  height: 250px;
+  margin: 1em auto;
+  background-color: #284b63;
+  padding: 1em;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hero {
+  border-radius: 0;
+  border: none;
+  height: 210px;
   position: relative;
-  border-style: groove;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: turquoise;
+  background-color: blue;
+  border-radius: 20px;
 }
-.herobutton {
+.herosmall {
+  height: 210px;
+}
+#hero h2 {
   position: absolute;
-  top: 100px;
-  right: 40px;
-  padding: .5rem;
+  top: 2rem;
+  right: 5px;
+  width: 100%;
+  font-size: x-large;
+  background-image: linear-gradient(
+    to left,
+    white,
+    white,
+    white,
+    black,
+    black,
+    blue,
+    red,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#hero button {
+  position: absolute;
+  top: 6rem;
+  right: 4rem;
+  padding: 0.5em;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5em;
   opacity: 0.7;
 }
-.heromessage {
-  position: absolute;
-  top: 10px;
-  right: 8rem;
-  font-size: larger;
-  color: #050a14;
-  font-weight: bolder;
+#hero picture img {
+  width: 100%;
+  border-radius: 8px;
 }
-.event {
+
+#hero button:hover {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+
+.extraHero {
+  display: none;
+}
+#event {
+  height: 250px;
   border-style: groove;
   background-color: turquoise;
+  color: black;
+}
+
+#event a {
+  color: blue;
+  font-style: italic;
+}
+#karibu {
+  border: 4px outset blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 .pevent {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-weight: bold;
   font-size: large;
 }
-#karibu {
-  margin-left: 50px;
-  margin-top: 5px;
-  border: 4px outset black;
-}
-.weather {
+
+#weather {
+  width: 90%;
   border-style: groove;
   padding: 5px;
   background-color: rgb(54, 99, 235);
-}
-.weatherdetails {
-  padding: 1rem;
-  font-weight: bolder;
-  font-size:medium;
-  margin-top: -12rem;
   color: black;
-  line-height: 10%;
+  font-weight: bold;
 }
-#weather-icon {
-  border: 3px solid blue;
-  margin-left: 4rem;
-  background-color:aquamarine;
-}
-
-.newsrelease {
-  border-style: groove;
-  background-color: turquoise;
+#weather p {
   text-align: center;
 }
-.pnews {
+#weather h2 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+
+#description {
+  display: block;
+  font-size: 16pt;
+  font-style: italic;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.5em;
+  border-bottom: 4px solid blue;
+}
+
+#weather table {
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid blue;
+}
+#weather-icon {
+  border: 5px solid blue;
+  background-color: aquamarine;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+#news {
+  text-align: center;
   padding-top: 1rem;
   font-weight: bold;
   font-size: larger;
+  border-style: groove;
+  background-color: turquoise;
+  text-align: center;
+  color: black;
 }
-.newsHeading {
+
+#news h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   text-decoration: underline;
+  font-weight: bold;
 }
-.spotlight1 {
-  border-style: groove;
-  background-color: rgb(65, 180, 225);;
+
+#spotlights {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 90%;
+  background-color: #0d5be1;
   text-align: center;
-  padding: 10px;
+  border-radius: 10px;
 }
-.spot1 {
-  border-top:1px solid rgba(0, 0, 0, 0.5);
-  padding-top: 10px;
+#spotlights section {
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
+  border-radius: 20%;
+  width: 70%;
 }
-.spotlight2 {
-  border-style: groove;
-  background-color: rgb(65, 180, 225);;
-  text-align: center;
-  padding: 10px;
+#spotlights h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  font-size: 18pt;
 }
-.spot2 {
-  border-top:1px solid rgba(0, 0, 0, 0.5);
-  padding-top: 10px;
+
+#spotlights img {
+  width: 100px;
 }
-.spotlight3 {
+#spotlights img:hover {
+  box-shadow: 0 0 50px blue;
+}
+
+.spotlight-contact {
+  padding-top: 0.5em;
+  border-top: 3px solid grey;
+}
+
+#join {
   display: none;
 }
-.join {
+#spotlight-3 {
   display: none;
 }
-.wrapperspotlight {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 200px;
-  border-style: groove;
-  height: fit-content;
-  padding: 1rem;
-  background-color: rgba(43, 101, 207, 0.472);
-}
+
 footer {
   text-align: center;
   margin-top: 80px;
@@ -256,30 +345,30 @@ main.form {
   margin-top: 10px;
 }
 form {
-  margin:0 auto;
+  margin: 0 auto;
 }
 body {
   padding: 5px;
 }
 main .formHeading {
-  text-align: center; 
+  text-align: center;
   text-transform: uppercase;
 }
 .thanksform {
   padding: 1rem;
   background-color: blue;
-  color:aliceblue;
+  color: aliceblue;
   margin-top: 3rem;
   text-align: center;
-  font-size:x-large;
+  font-size: x-large;
   font-weight: bolder;
 }
 form fieldset {
   margin: 2rem 0;
   border: 1px solid blue;
   border-radius: 10px;
-  padding: .5rem;
-  background-color:#91A8D0;
+  padding: 0.5rem;
+  background-color: #91a8d0;
 }
 
 form legend {
@@ -288,14 +377,14 @@ form legend {
   padding: 0;
   font-weight: bold;
   font-size: larger;
+  background-color: #0d5be1;
 }
 
-form label.top{
+form label.top {
   display: block;
   padding-top: 1rem;
   color: rgb(2, 11, 12);
   font-size: 1rem;
-  
 }
 
 form label.top input {
@@ -304,7 +393,7 @@ form label.top input {
   font-size: 1rem;
   border: 1px solid grey;
   border-radius: 4px;
-  padding: .75rem;
+  padding: 0.75rem;
   color: black;
   width: 100%;
   max-width: 15rem;
@@ -316,19 +405,19 @@ form input.submitBtn {
   background-color: rgb(28, 14, 155);
   color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
 }
 .memberInfo {
-    border: 6px outset gray;
-    float: right;
-    margin-top: -25rem;
-    margin-right: 10rem;
-    width: 30rem;
-    height: 20rem;
-    display: none;
+  border: 6px outset gray;
+  float: right;
+  margin-top: -25rem;
+  margin-right: 10rem;
+  width: 30rem;
+  height: 20rem;
+  display: none;
 }
 
 form label.top input:required {
@@ -339,7 +428,7 @@ form label.top input:required:valid {
 }
 form label.sbs {
   display: block;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: black;
   font-size: larger;
 }
@@ -347,13 +436,13 @@ form label.sbs {
 /*-----------Directory Small-----------------*/
 .bizdir {
   text-align: center;
-  background-color:blue;
+  background-color: blue;
   padding: 1.5rem;
   color: white;
   margin-top: 5px;
 }
 .dirMain {
-  background-color: #91A8D0;
+  background-color: #91a8d0;
 }
 
 #dirBtn {
@@ -385,8 +474,8 @@ form label.sbs {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
-  background-color:#0D5BE1;
-  justify-items:center;
+  background-color: #0d5be1;
+  justify-items: center;
   align-items: center;
   border-style: outset;
   padding-top: 20px;
@@ -394,14 +483,13 @@ form label.sbs {
   width: 18rem;
   height: 24rem;
   margin: 0 auto;
-  
 }
 
 #dirCards img {
   max-width: 10rem;
   margin: 0 auto;
   border-style: outset;
-  border-width: .5rem;
+  border-width: 0.5rem;
 }
 #dirCards img:hover {
   box-shadow: 0 0 50px gold;
@@ -410,10 +498,9 @@ form label.sbs {
 #dirCards section p {
   color: black;
   align-self: center;
-  margin: .5em;
+  margin: 0.5em;
   line-height: 0;
   font-size: larger;
-
 }
 
 #dirCards section a {
@@ -431,7 +518,7 @@ form label.sbs {
 #dirList section {
   text-align: center;
   width: 90%;
-  background-color: #007FFF;
+  background-color: #007fff;
   color: black;
   margin: 0 auto;
   font-size: larger;
@@ -445,6 +532,67 @@ form label.sbs {
   background-color: #fdfff5;
 }
 
-#dirCards.hidden, #dirList.hidden {
+#dirCards.hidden,
+#dirList.hidden {
   display: none;
+}
+/*------------Discover Small-----------*/
+.discoverBody {
+  background-color: skyblue;
+}
+.hamburgerBtn {
+  color: black;
+  padding-top: 10px;
+}
+nav.discoverNav ul.open {
+  background-color: aqua;
+}
+#discoverSection {
+  margin: 0 auto;
+  width: 90%;
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  margin-top: 20px;
+  background-image: url("https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main figure img[data-src] {
+  filter: blur(0.5em);
+}
+
+main figure img {
+  display: block;
+  margin: 3em auto;
+  margin-bottom: 0.5em;
+  max-width: 90%;
+  filter: blur(0em);
+  transition: filter 2s;
+  border: 6px outset;
+}
+
+main figure img:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+main figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+.discoverHeading {
+  text-align: center;
+  color: black;
+  padding-top: 5px;
+}
+.contact-us {
+  border: 6px outset blue;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: skyblue;
+  color: white;
 }
