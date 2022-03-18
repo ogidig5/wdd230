@@ -1,6 +1,6 @@
 const requestURL = 'lesson09/business.json';
 const sections = document.getElementById('spotlights');
-let spotlightID = 1;
+let spotlightNumber = 1;
 
 
 fetch(requestURL)
@@ -8,7 +8,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsonObject);
 
         const business= jsonObject['business'];
 
@@ -19,20 +18,17 @@ function displaySpotlights(business) {
 
     let membership = business.membership;
     let randInt = getRndInteger(0, 30);
-
-    console.log(randInt);
     
-    if (spotlightID < 4 && (membership === "Silver" || membership === "Gold")) {
+    if (spotlightNumber < 4 && (membership === "Silver" || membership === "Gold")) {
         if (randInt % 2 === 0) {
 
-            console.log(randInt);
             let section = document.createElement('section');
             let h3 = document.createElement('h3');
             let portrait = document.createElement('img');
             let membershipLevel = document.createElement('p');
             let contact = document.createElement('p');
 
-            section.setAttribute('id', `spotlight-${spotlightID}`);
+            section.setAttribute('id', `spotlight-${spotlightNumber}`);
 
             h3.textContent = business.name;
 
@@ -52,7 +48,7 @@ function displaySpotlights(business) {
 
             sections.appendChild(section);
 
-            spotlightID += 1;
+            spotlightNumber += 1;
         }
 
     }
