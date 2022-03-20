@@ -36,7 +36,7 @@ function displaySpotlights(business) {
             portrait.setAttribute('alt', `Image for ${business.name}`);
             portrait.setAttribute('loading', 'lazy');
 
-            membershipLevel.textContent = `Membership status: ${membership}`;
+            membershipLevel.textContent = `${membership}`;
 
             contact.setAttribute('class', 'spotlight-contact');
             contact.innerHTML = `Email: ${business.email} Phone: ${business.phone} <a href='#'>${business.website}</a>`;

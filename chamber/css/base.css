@@ -141,7 +141,7 @@ main div section,
   right: 5px;
   width: 100%;
   font-size: x-large;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to left,
     white,
     white,
@@ -156,7 +156,8 @@ main div section,
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: white;
 }
 
 #hero button {
@@ -213,7 +214,7 @@ main div section,
   width: 90%;
   border-style: groove;
   padding: 5px;
-  background-color: rgb(54, 99, 235);
+  background-color: skyblue;
   color: black;
   font-weight: bold;
 }
@@ -547,18 +548,7 @@ form label.sbs {
 nav.discoverNav ul.open {
   background-color: aqua;
 }
-#discoverSection {
-  margin: 0 auto;
-  width: 90%;
-  color: black;
-  font-size: x-large;
-  padding: 10px;
-  margin-top: 20px;
-  background-image: url("https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+
 
 main figure img[data-src] {
   filter: blur(0.5em);
@@ -581,6 +571,8 @@ main figure img:hover {
 main figure figcaption {
   text-align: center;
   font-style: italic;
+  font-weight: bold;
+  font-size: larger;
 }
 .discoverHeading {
   text-align: center;
