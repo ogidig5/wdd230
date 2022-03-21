@@ -111,7 +111,7 @@
   }
   #weather {
     width: 80%;
-    height: 256px;
+    height: 270px;
     grid-column: span 2;
     margin-left: 0;
   }
