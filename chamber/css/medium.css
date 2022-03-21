@@ -152,6 +152,9 @@
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     padding-top: 10px;
   }
+  #LastUpdated {
+    display: block;
+  }
   .shadow:hover {
     box-shadow: 0 0 50px #333;
   }

@@ -13,5 +13,5 @@ fetch(apiURL)
     // document.querySelector("#icon-src").textContent = iconsrc;
     document.querySelector("#weather-icon").setAttribute("src", iconsrc);
     document.querySelector("#weather-icon").setAttribute("alt", desc);
-    document.querySelector("figcaption").textContent = desc;
+    // document.querySelector("figcaption").textContent = desc;
   });

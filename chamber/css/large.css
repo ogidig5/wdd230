@@ -43,6 +43,7 @@
 
   #spotlights section {
     border: none;
+    line-height: 200%;
   }
 
   #spotlight-3 {
@@ -91,6 +92,7 @@
     grid-column: 2;
     grid-row: 3;
     height: 100%;
+    line-height: 200%;
   }
 
   #event {
@@ -157,6 +159,9 @@
   }
   .footer3 {
     display: none;
+  }
+  #LastUpdated {
+    display: block;
   }
   .shadow:hover {
     box-shadow: 0 0 50px #333;
