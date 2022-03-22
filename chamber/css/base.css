@@ -60,7 +60,12 @@ h2 {
 .twitter {
   padding-left: 5px;
 }
-
+.activepage {
+  background-color: aqua;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid black;
+}
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
