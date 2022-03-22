@@ -1,5 +1,6 @@
 body {
   background-color: #91a8d0;
+  font-family: 'Quicksand', 'sans-serif';
 }
 #current-date {
   display: flex;
@@ -320,6 +321,7 @@ footer {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   background-color: turquoise;
   width: 100%;
+  font-weight: bold;
 }
 .footerImage {
   padding-top: 20px;
